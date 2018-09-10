@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Test suite]" parallel="tests">
+  <parameter name="Browsers" value="IE"/>
+  <test name="IEtest(failed)" parallel="tests">
+    <parameter name="Browsers" value="IE"/>
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Teardown"/>
+          <include name="Broswer"/>
+          <include name="Broswer"/>
+          <include name="Broswer"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- IEtest(failed) -->
+</suite> <!-- Failed suite [My Test suite] -->
