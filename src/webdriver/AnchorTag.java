@@ -13,8 +13,7 @@ public class AnchorTag {
 	public static void main(String[] args) throws InterruptedException {
 		String appurl="https://www.google.com/gmail/about/#";	
 		
-		//System.setProperty("webdriver.ie.driver", "D:\\IEDriverServer.exe");
-		//WebDriver driver=new InternetExplorerDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get(appurl);
 		driver.manage().window().maximize();

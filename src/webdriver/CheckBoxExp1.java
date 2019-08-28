@@ -11,7 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class CheckBoxExp1 {
 
 	public static void main(String[] args) {
-		WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.echoecho.com/htmlforms09.htm");
 		
