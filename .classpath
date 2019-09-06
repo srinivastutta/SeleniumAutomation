@@ -27,7 +27,6 @@
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/jetty-io-9.4.8.v20180619.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/jetty-util-9.4.8.v20180619.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/jetty-xml-9.4.8.v20180619.jar"/>
-	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/neko-htmlunit-2.30.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/libs/serializer-2.7.2.jar"/>
@@ -43,5 +42,10 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/log4j.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/htmlunit-driver-2.36.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/poi-scratchpad-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/XlsReader.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/jxls-reader-0.9.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
