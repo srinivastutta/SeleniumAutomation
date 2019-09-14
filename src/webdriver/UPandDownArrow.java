@@ -9,11 +9,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class UPandDownArrow {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://google.com");
 		driver.manage().window().maximize();
 		
-		WebElement Type=driver.findElement(By.id("lst-ib"));
+		WebElement Type=driver.findElement(By.name("q"));
 		Type.sendKeys("Selenium");
 		Thread.sleep(2000);
 		Type.sendKeys(Keys.ARROW_DOWN);

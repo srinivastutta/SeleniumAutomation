@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DropDownExp {
 
 	public static void main(String[] args) throws InterruptedException {
+	System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
 	WebDriver driver = new FirefoxDriver();
 	driver.get("http://spicejet.com");
 	driver.manage().window().maximize();
@@ -16,5 +17,4 @@ public class DropDownExp {
 	driver.findElement(By.linkText("Amritsar (ATQ)")).click();
 
 	}
-
-}
+	}

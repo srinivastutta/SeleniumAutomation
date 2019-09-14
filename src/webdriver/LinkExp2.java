@@ -11,7 +11,8 @@ public class LinkExp2 {
 
 	public static void main(String[] args) {
 	String Reg="REGISTER";
-	WebDriver driver=new FirefoxDriver();
+	System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+	WebDriver driver = new FirefoxDriver();
 	driver.get("http://newtours.demoaut.com");
 	driver.manage().window().maximize();
 	

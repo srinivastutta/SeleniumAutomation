@@ -12,7 +12,8 @@ public class TestNGExp {
 	@BeforeClass
 	public void Broswer(){
 		
-		driver =new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		driver=new FirefoxDriver();
 		driver.get("http://rediffmail.com");
 		driver.manage().window().maximize();
 		

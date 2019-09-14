@@ -13,6 +13,7 @@ public class BrowseURL {
 		driver.manage().window().maximize();
 		String str=driver.getPageSource();
 		System.out.println(str);
+		driver.quit();
 	}
 
 }

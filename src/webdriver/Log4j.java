@@ -13,7 +13,8 @@ public class Log4j {
 	
 	PropertyConfigurator.configure("Log4j.properties");
 	
-	WebDriver driver=new FirefoxDriver();
+	System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+	WebDriver driver = new FirefoxDriver();
 	logger.info("FirefoxLanched");
 	driver.get("https://login.salesforce.com");
 	driver.manage().window().maximize();

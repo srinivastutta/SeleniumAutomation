@@ -7,7 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class ScrollUpNDown {
 
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver =new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.rediff.com/");
 		driver.manage().window().maximize();
 		

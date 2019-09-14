@@ -47,5 +47,6 @@
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/poi-scratchpad-3.7-20101029.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/XlsReader.jar"/>
 	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/jxls-reader-0.9.8.jar"/>
+	<classpathentry kind="lib" path="E:/Selenium/Selenium Library/htmlunit-driver-2.36.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -10,7 +10,8 @@ public class Test1 {
 	
 	@Test
 	public void A(){
-		WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://makemytrip.com");
 		

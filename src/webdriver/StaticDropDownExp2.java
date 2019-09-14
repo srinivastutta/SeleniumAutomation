@@ -10,22 +10,22 @@ public class StaticDropDownExp2 {
 
 	public static void main(String[] args) {
 
-		WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 		driver.get("http://facebook.com");
 		driver.manage().window().maximize();
-		
-		//type caste dropdown with select class
-		Select myList= new Select(driver.findElement(By.id("month")));
-		//read selected value from dropdown
-		WebElement option=	myList.getFirstSelectedOption();
-		String month=option.getText();
+
+		// type caste dropdown with select class
+		Select myList = new Select(driver.findElement(By.id("month")));
+		// read selected value from dropdown
+		WebElement option = myList.getFirstSelectedOption();
+		String month = option.getText();
 		System.out.println(month);
-		//if it 
+		// if it
 		if (month.equals("Jul")) {
 			System.out.println("Month is already Selected");
-			}
-		else {
-			myList.selectByValue("8");
+		} else {
+			myList.selectByValue("9");
 			System.out.println("Month is slected WD");
 		}
 	}
