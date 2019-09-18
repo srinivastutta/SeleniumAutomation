@@ -8,13 +8,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebElement1 {
 
 	public static void main(String[] args) {
-		WebDriver driver= new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
 		driver.get("http://facebook.com");
 		driver.manage().window().maximize();
 		
 		//Creating WebElement
 		String id="srinivas";
-		WebElement obj=driver.findElement(By.id("u_0_c"));
+		WebElement obj=driver.findElement(By.id("u_0_m"));
         obj.click();
         obj.sendKeys(id);
 		//to read the data from editbox

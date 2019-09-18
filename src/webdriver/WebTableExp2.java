@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebTableExp2 {
 
 	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://w3schools.com");
 		driver.manage().window().maximize();

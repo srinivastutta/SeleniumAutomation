@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22848" started-at="2019-09-14T18:50:26Z" finished-at="2019-09-14T18:50:49Z">
+  <suite name="Default suite" duration-ms="15426" started-at="2019-09-14T19:29:32Z" finished-at="2019-09-14T19:29:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22848" started-at="2019-09-14T18:50:26Z" finished-at="2019-09-14T18:50:49Z">
-      <class name="webdriver.TestNGExp">
-        <test-method status="PASS" signature="Broswer()[pri:0, instance:webdriver.TestNGExp@44c8afef]" name="Broswer" is-config="true" duration-ms="16330" started-at="2019-09-14T18:50:26Z" finished-at="2019-09-14T18:50:43Z">
+    <test name="Default test" duration-ms="15426" started-at="2019-09-14T19:29:32Z" finished-at="2019-09-14T19:29:48Z">
+      <class name="webdriver.WebdriverGrid">
+        <test-method status="PASS" signature="FirefoxTest()[pri:0, instance:webdriver.WebdriverGrid@7113b13f]" name="FirefoxTest" duration-ms="12217" started-at="2019-09-14T19:29:32Z" finished-at="2019-09-14T19:29:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Broswer -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:webdriver.TestNGExp@44c8afef]" name="Login" duration-ms="3323" started-at="2019-09-14T18:50:43Z" finished-at="2019-09-14T18:50:46Z">
+        </test-method> <!-- FirefoxTest -->
+        <test-method status="PASS" signature="IETest()[pri:0, instance:webdriver.WebdriverGrid@7113b13f]" name="IETest" duration-ms="3162" started-at="2019-09-14T19:29:45Z" finished-at="2019-09-14T19:29:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:webdriver.TestNGExp@44c8afef]" name="TearDown" is-config="true" duration-ms="3135" started-at="2019-09-14T18:50:46Z" finished-at="2019-09-14T18:50:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- webdriver.TestNGExp -->
+        </test-method> <!-- IETest -->
+      </class> <!-- webdriver.WebdriverGrid -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

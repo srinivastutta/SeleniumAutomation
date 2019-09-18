@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WindowHandleExp2 {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium Setup Files\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin");
 		driver.manage().window().maximize();
