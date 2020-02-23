@@ -1,5 +1,6 @@
 <suite name="My Test suite">
 
+
 <test name="Mytest">
 <classes>
 <class name="xml.package1.Demo1"></class>
